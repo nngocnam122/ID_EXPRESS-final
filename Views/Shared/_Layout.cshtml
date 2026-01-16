@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900|Display+Playfair:200,300,400,700">
+    <link rel="stylesheet" href="~/assets/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="~/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/assets/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="~/assets/css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="~/assets/fonts/flaticon/font/flaticon.css">
+
+
+
+    <link rel="stylesheet" href="~/assets/css/aos.css">
+
+    <link rel="stylesheet" href="~/assets/css/style.css">
+
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="200">
+
+    <!-- <div class="site-wrap"> -->
+
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <header class="site-navbar py-3 js-site-navbar site-navbar-target" role="banner" id="site-navbar">
+
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-11 col-xl-2 site-logo">
+                    <h1 class="mb-0">
+                        <a asp-controller="Home" asp-action="Index" class="text-white h2 mb-0">ID Express</a>
+                    </h1>
+                </div>
+                <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" style="font-weight:500" role="navigation">
+
+                        <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                            <li><a asp-controller="Home" asp-action="Index" class="nav-link">Trang chủ</a></li>
+                            <li class="has-children">
+                                <a href="@Url.Content("~/")#gioi-thieu" class="nav-link">Giới thiệu</a>
+                                <ul class="dropdown">
+                                    <li><a href="#quy-trinh-gui-hang" class="nav-link">Quy trình gửi hàng</a></li>
+                                    <li><a href="#ve-chung-toi" class="nav-link">Về chúng tôi</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="@Url.Content("~/")#dich-vu" class="nav-link">Dịch vụ</a></li>
+                            <li><a href="@Url.Content("~/")#bang-gia" class="nav-link">Bảng Giá</a></li>
+                            <li><a href="@Url.Content("~/")#blog" class="nav-link">Tham Khảo</a></li>
+                            <li><a href="@Url.Content("~/")#lien-he" class="nav-link">Liên hệ cho chúng tôi </a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a></div>
+            </div>
+
+        </div>
+
+    </header>
+
+    @RenderBody()
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-5 mr-auto">
+                            <img class="w-25 footer-heading mb-4" style="border-radius:50%" src="~/assets/images/favicon.png" />
+                            <p>
+                                Với nhiều năm kinh nghiệm trong lĩnh vực logistics, chúng tôi cung cấp dịch vụ vận chuyển chuyên nghiệp bằng đường hàng không và đường biển, phù hợp cho mọi loại hàng hóa: từ những kiện hàng nhỏ lẻ, hàng quá khổ đến cả những mặt hàng hạn chế nhập khẩu.
+                                <br /><b>ID EXPRESS</b> cam kết mang lại giải pháp logistics an toàn, nhanh chóng, hiệu quả và giá cước cạnh tranh.
+                            </p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h2 class="footer-heading mb-4">Liên Hệ Cho Chúng Tôi</h2>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <h5 class="footer-heading">Quận 12 (cũ):</h5><a target="_blank" href="https://maps.app.goo.gl/sX9ePiEbSTsuXuuGA">
+                                        453 Song Hành, Phường Đông Hưng Thuận, TP Hồ Chí Minh, Việt Nam
+                                    </a> <br />
+                                    <a href="tel:0948369768">0948369768 </a>
+                                </li>
+                                <li>
+                                    <h5 class="footer-heading">Bình Dương (cũ):</h5><a target="_blank" href="https://maps.app.goo.gl/JjM6jcgdf2QmhGRd6">158/35/58 Vũng Việt, Khu Phố Chiêu Liêu, Phường Dĩ An, TP Hồ Chí Minh, Việt Nam</a> <br />
+                                    <a href="tel:0346863719">0346863719 </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h2 class="footer-heading mb-4">Theo Dõi Chúng Tôi</h2>
+                            <a href="https://www.facebook.com/IDLineExpress?locale=vi_VN"
+                               target="_blank" rel="noopener noreferrer" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                            <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                            <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                            <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="footer-heading mb-4">Đường Đến Với ID EXPRESS</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1307.6924680010477!2d106.62064164122788!3d10.838084157523172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b007784bde1%3A0xcb389f4f5848cec4!2zR-G7rEkgSMOATkcgUVXhu5BDIFThur4gSUQgTElORSBFWFBSRVNT!5e0!3m2!1svi!2s!4v1745844745609!5m2!1svi!2s" width="350" height="250" style="border:0; border-radius:15px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="row pt-5 mt-5 text-center">
+                <div class="col-md-12">
+                    <div class="border-top pt-5">
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> <b>ID EXPRESS</b>. All rights reserved
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                        <a href="//www.dmca.com/Protection/Status.aspx?ID=5e276d42-f48d-4d26-95bd-92a63e73869c" title="DMCA.com Protection Status" class="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-01.png?ID=5e276d42-f48d-4d26-95bd-92a63e73869c" alt="DMCA.com Protection Status" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="serch_form" style="margin:40px">
+                    <form id="tracking-form">
+                        <div class="col-12" style="margin-bottom: 15px">
+                            <label for="tracking-number" class="text-uppercase"><h6>Theo dõi tracking:</h6></label>
+                            <input type="text"
+                                   class="form-control"
+                                   style="border:solid 1px black; border-radius: 5px"
+                                   id="tracking-number"
+                                   name="tracking-number"
+                                   placeholder="Nhập Mã Tracking"
+                                   required />
+                        </div>
+                        <!-- Tracking -->
+
+                        <div class="col-12 align-items-center" style="margin-bottom: 15px">
+                            <label for="carrier" style="text-transform:uppercase"><h6>Hãng:</h6></label>
+                            <select class="form-select" id="carrier" name="carrier" required style="width: auto;">
+                                <option value="ups">UPS</option>
+                                <option value="fedex">FedEx</option>
+                                <option value="dhl">DHL</option>
+                                <option value="vina">Chuyên Tuyến Vina</option>
+                            </select>
+                            <button type="button"
+                                    class="btn btn-primary"
+                                    style="margin-left: 15px; border-radius: 5px"
+                                    onclick="trackShipment()">
+                                Kiểm tra
+                            </button>
+                        </div>
+                        <!-- Chọn Hãng -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+
+
+
+    <script src="~/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="~/assets/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="~/assets/js/jquery-ui.js"></script>
+    <script src="~/assets/js/jquery.easing.1.3.js"></script>
+    <script src="~/assets/js/popper.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/owl.carousel.min.js"></script>
+    <script src="~/assets/js/jquery.stellar.min.js"></script>
+    <script src="~/assets/js/jquery.countdown.min.js"></script>
+    <script src="~/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="~/assets/js/aos.js"></script>
+
+    <script src="~/assets/js/main.js"></script>
+
+    <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|c:\\users\\nammusic\\documents\\renew_idline\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|solutionrelative:controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|c:\\users\\nammusic\\documents\\renew_idline\\views\\country\\usa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|solutionrelative:views\\country\\usa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|c:\\users\\nammusic\\documents\\renew_idline\\views\\country\\aus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|solutionrelative:views\\country\\aus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|c:\\users\\nammusic\\documents\\renew_idline\\views\\country\\can.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|solutionrelative:views\\country\\can.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|c:\\users\\nammusic\\documents\\renew_idline\\views\\country\\cne_jpn_kor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|solutionrelative:views\\country\\cne_jpn_kor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|c:\\users\\nammusic\\documents\\renew_idline\\views\\country\\chauau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|solutionrelative:views\\country\\chauau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|c:\\users\\nammusic\\documents\\renew_idline\\views\\country\\my_sgp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|solutionrelative:views\\country\\my_sgp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|c:\\users\\nammusic\\documents\\renew_idline\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{340E7F33-EEEF-46C9-90F9-FDEE0079E829}|Renew_IDLine.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 313,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MY_SGP.cshtml",
+              "DocumentMoniker": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Views\\Country\\MY_SGP.cshtml",
+              "RelativeDocumentMoniker": "Views\\Country\\MY_SGP.cshtml",
+              "ToolTip": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Views\\Country\\MY_SGP.cshtml",
+              "RelativeToolTip": "Views\\Country\\MY_SGP.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T06:18:48.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CNE_JPN_KOR.cshtml",
+              "DocumentMoniker": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Views\\Country\\CNE_JPN_KOR.cshtml",
+              "RelativeDocumentMoniker": "Views\\Country\\CNE_JPN_KOR.cshtml",
+              "ToolTip": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Views\\Country\\CNE_JPN_KOR.cshtml",
+              "RelativeToolTip": "Views\\Country\\CNE_JPN_KOR.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T06:15:16.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChauAU.cshtml",
+              "DocumentMoniker": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Views\\Country\\ChauAU.cshtml",
+              "RelativeDocumentMoniker": "Views\\Country\\ChauAU.cshtml",
+              "ToolTip": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Views\\Country\\ChauAU.cshtml",
+              "RelativeToolTip": "Views\\Country\\ChauAU.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T06:14:54.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CAN.cshtml",
+              "DocumentMoniker": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Views\\Country\\CAN.cshtml",
+              "RelativeDocumentMoniker": "Views\\Country\\CAN.cshtml",
+              "ToolTip": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Views\\Country\\CAN.cshtml",
+              "RelativeToolTip": "Views\\Country\\CAN.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T06:02:25.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AUS.cshtml",
+              "DocumentMoniker": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Views\\Country\\AUS.cshtml",
+              "RelativeDocumentMoniker": "Views\\Country\\AUS.cshtml",
+              "ToolTip": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Views\\Country\\AUS.cshtml",
+              "RelativeToolTip": "Views\\Country\\AUS.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T06:00:59.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "USA.cshtml",
+              "DocumentMoniker": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Views\\Country\\USA.cshtml",
+              "RelativeDocumentMoniker": "Views\\Country\\USA.cshtml",
+              "ToolTip": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Views\\Country\\USA.cshtml",
+              "RelativeToolTip": "Views\\Country\\USA.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-15T06:00:04.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CountryController.cs",
+              "ToolTip": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "Controllers\\CountryController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T05:53:36.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NamMusic\\Documents\\Renew_IDLine\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T10:42:04.94Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
