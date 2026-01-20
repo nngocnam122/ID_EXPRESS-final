@@ -4,7 +4,7 @@ namespace Renew_IDLine.Controllers
 {
     public class CountryController : Controller
     {
-        [Route("gui-hang-di-USA ")]
+        [Route("gui-hang-di-USA")]
         public IActionResult USA()
         {
             return View();

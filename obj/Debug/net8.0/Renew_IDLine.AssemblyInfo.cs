@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Renew_IDLine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82eef4520a1cd569d23a08996988bfda277518c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Renew_IDLine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Renew_IDLine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

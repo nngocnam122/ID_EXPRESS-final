@@ -226,3 +226,4 @@ C:\Users\NamMusic\Documents\Renew_IDLine\bin\Debug\net8.0\Microsoft.Extensions.C
 C:\Users\NamMusic\Documents\Renew_IDLine\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\NamMusic\Documents\Renew_IDLine\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\NamMusic\Documents\Renew_IDLine\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\NamMusic\Documents\Renew_IDLine\obj\Debug\net8.0\Renew_IDLine.sourcelink.json

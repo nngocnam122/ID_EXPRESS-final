@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900|Display+Playfair:200,300,400,700">
     <link rel="stylesheet" href="~/assets/fonts/icomoon/style.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css" />
     <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="~/assets/css/magnific-popup.css">
     <link rel="stylesheet" href="~/assets/css/jquery-ui.css">
@@ -39,6 +39,47 @@
         </div>
         <div class="site-mobile-menu-body"></div>
     </div>
+    <!-- Theo dõi tracking -->
+    <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="serch_form" style="margin:40px">
+                    <form id="tracking-form">
+                        <div class="col-12" style="margin-bottom: 15px">
+                            <label for="tracking-number" class="text-uppercase"><h6>Theo dõi tracking:</h6></label>
+
+                            <input type="text"
+                                   class="form-control"
+                                   style="border:solid 1px black; border-radius: 5px"
+                                   id="tracking-number"
+                                   name="tracking-number"
+                                   placeholder="Nhập Mã Tracking"
+                                   required />
+                        </div>
+                        <!-- Tracking -->
+
+                        <div class="col-12 align-items-center" style="margin-bottom: 15px">
+                            <label for="carrier" style="text-transform:uppercase"><h6>Hãng:</h6></label>
+                            <select class="form-select" id="carrier" name="carrier" required style="width: auto;">
+                                <option value="ups">UPS</option>
+                                <option value="fedex">FedEx</option>
+                                <option value="dhl">DHL</option>
+                                <option value="vina">Chuyên Tuyến Vina</option>
+                            </select>
+                            <button type="button"
+                                    class="btn btn-primary"
+                                    style="margin-left: 15px; border-radius: 5px"
+                                    onclick="trackShipment()">
+                                Kiểm tra
+                            </button>
+                        </div>
+                        <!-- Chọn Hãng -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //Theo dõi tracking -->
 
     <header class="site-navbar py-3 js-site-navbar site-navbar-target" role="banner" id="site-navbar">
 
@@ -137,46 +178,7 @@
         </div>
     </footer>
 
-
-    <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="serch_form" style="margin:40px">
-                    <form id="tracking-form">
-                        <div class="col-12" style="margin-bottom: 15px">
-                            <label for="tracking-number" class="text-uppercase"><h6>Theo dõi tracking:</h6></label>
-                            <input type="text"
-                                   class="form-control"
-                                   style="border:solid 1px black; border-radius: 5px"
-                                   id="tracking-number"
-                                   name="tracking-number"
-                                   placeholder="Nhập Mã Tracking"
-                                   required />
-                        </div>
-                        <!-- Tracking -->
-
-                        <div class="col-12 align-items-center" style="margin-bottom: 15px">
-                            <label for="carrier" style="text-transform:uppercase"><h6>Hãng:</h6></label>
-                            <select class="form-select" id="carrier" name="carrier" required style="width: auto;">
-                                <option value="ups">UPS</option>
-                                <option value="fedex">FedEx</option>
-                                <option value="dhl">DHL</option>
-                                <option value="vina">Chuyên Tuyến Vina</option>
-                            </select>
-                            <button type="button"
-                                    class="btn btn-primary"
-                                    style="margin-left: 15px; border-radius: 5px"
-                                    onclick="trackShipment()">
-                                Kiểm tra
-                            </button>
-                        </div>
-                        <!-- Chọn Hãng -->
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- </div> -->
+    
 
 
 
@@ -192,7 +194,7 @@
     <script src="~/assets/js/jquery.magnific-popup.min.js"></script>
     <script src="~/assets/js/bootstrap-datepicker.min.js"></script>
     <script src="~/assets/js/aos.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
     <script src="~/assets/js/main.js"></script>
 
     <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>

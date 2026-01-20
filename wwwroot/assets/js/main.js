@@ -365,3 +365,45 @@ function trackShipment() {
         alert("Không thể xác định URL tracking.");
     }
 }
+
+
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+    const form = this;
+    const data = new FormData(form);
+
+    fetch('/Contact/SendMail', {
+        method: 'POST',
+    body: data
+    })
+    .then(res => res.json())
+    .then(result => {
+        const alertBox = document.getElementById("alertBox");
+    alertBox.style.display = "block";
+
+    if (result.success) {
+        alertBox.className = "alert alert-success";
+    alertBox.innerText = result.message;
+    form.reset();
+        } else {
+        alertBox.className = "alert alert-danger";
+    alertBox.innerText = result.message;
+        }
+    })
+    .catch(() => {
+        const alertBox = document.getElementById("alertBox");
+    alertBox.style.display = "block";
+    alertBox.className = "alert alert-danger";
+    alertBox.innerText = "Có lỗi xảy ra.";
+    });
+});
+
+    const input = document.querySelector("#phone");
+
+    window.intlTelInput(input, {
+        initialCountry: "vn",
+    separateDialCode: true,
+    preferredCountries: ["vn", "us","au","ca", "jp", "kr", "sg"],
+    utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js"
+});
